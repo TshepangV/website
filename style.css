@@ -3,7 +3,13 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  background-color: rgb(10, 10, 10) !important;
+  color: white;
+}
+span {
+  color: #f51313;
+}
 .main {
   width: 100%;
   background: linear-gradient(
@@ -67,7 +73,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: coral;
+  color: rgb(235, 18, 18);
 }
 
 .search {
@@ -95,8 +101,8 @@ ul li a:hover {
 .btn {
   width: 100px;
   height: 40px;
-  background: coral;
-  border: 2px solid coral;
+  background: rgb(236, 12, 12);
+  border: 2px solid rgb(241, 20, 20);
   margin-top: 13px;
   color: aliceblue;
   font-size: 15px;
@@ -139,7 +145,7 @@ ul li a:hover {
 .content .cn {
   width: 160px;
   height: 40px;
-  background: coral;
+  background: rgb(235, 17, 17);
   border: none;
   margin-bottom: 10px;
   margin-left: 20px;
@@ -150,7 +156,7 @@ ul li a:hover {
 
 .content .cn a {
   text-decoration: none;
-  color: black;
+  color: white;
   transition: 0.3s ease;
 }
 
@@ -159,7 +165,7 @@ ul li a:hover {
 }
 
 .content span {
-  color: coral;
+  color: rgb(253, 15, 15);
   font-size: 50px;
 }
 
@@ -182,7 +188,7 @@ ul li a:hover {
   width: 220px;
   font-family: sans-serif;
   text-align: center;
-  color: coral;
+  color: rgb(236, 21, 21);
   font-size: 22px;
   background-color: white;
   border-radius: 10px;
@@ -194,11 +200,11 @@ ul li a:hover {
   width: 240px;
   height: 35px;
   background: transparent;
-  border-bottom: 1px solid coral;
+  border-bottom: 1px solid rgb(243, 25, 25);
   border-top: none;
   border-right: none;
   border-left: none;
-  color: coral;
+  color: rgb(241, 20, 20);
   font-size: 15px;
   letter-spacing: 1px;
   margin-top: 30px;
@@ -217,7 +223,7 @@ ul li a:hover {
 .btnn {
   width: 240px;
   height: 40px;
-  background: coral;
+  background: rgb(236, 19, 19);
   border: none;
   margin-top: 30px;
   font-size: 18px;
@@ -228,7 +234,7 @@ ul li a:hover {
 }
 .btnn:hover {
   background: white;
-  color: coral;
+  color: rgb(248, 14, 14);
 }
 
 .btnn a {
@@ -246,7 +252,7 @@ ul li a:hover {
 
 .form .link a {
   text-decoration: none;
-  color: coral;
+  color: rgb(248, 32, 25);
 }
 
 .liw {
@@ -394,7 +400,7 @@ tr td:first-child {
 }
 .container2 h1::after {
   content: "";
-  background: grey;
+  background: rgb(231, 0, 0);
   width: 100px;
   height: 5px;
   position: absolute;
@@ -416,17 +422,17 @@ tr td:first-child {
   background: transparent;
 }
 .Services i {
-  font-size: 30px;
+  font-size: 60px;
   margin-bottom: 10px;
-  color: gray;
+  color: rgb(243, 14, 14);
 }
 .Services h2 {
   font-weight: 600;
   margin-bottom: 8px;
 }
 .Services:hover {
-  background: brown;
-  color: #fff;
+  background: rgb(22, 19, 19);
+  color: #f51313;
   transform: scale(1.05s);
 }
 .Services:hover i {
